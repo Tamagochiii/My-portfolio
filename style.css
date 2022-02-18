@@ -24,13 +24,20 @@ html{
     font-size: 20px;
 }
 .navbar-brand img{
-    width: 100px;
+    height: 50px;
+
 }
 .navbar-nav{
     margin-right: 30px;
 }
 .nav-item{
     margin-right: 20px;
+}
+.nav-item .btn{
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 8px 20px;
+    border-radius: 15px;
 }
 .nav-link{
     color: white;
@@ -76,7 +83,7 @@ html{
 }
 .intro-left{
     color: white;
-    height: 94.9vh;
+    height: 92.9vh;
 }
 .intro-left h2{
     font-size: 4rem;
