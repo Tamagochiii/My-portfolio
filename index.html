@@ -14,14 +14,14 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Playfair+Display&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#home">
           <img src="./images/Logo.svg" alt="Website Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-hamburger">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-hamburger" aria-controls="nav-hamburger" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -48,8 +48,9 @@
         </div>
       </nav>
       
-    <div class="container-fluid">
-      <div class="intro" id="home">
+    <div class="intro container-fluid">
+      <!-- Home Page -->
+      <div id="home">
         <div class="row">
           <!-- Left Column Introduction -->
           <div class="intro-left col-md">
@@ -62,7 +63,37 @@
           </div>
           <!-- Right Column Introduction -->
           <div class="intro-right col-md">
-            <img src="./images/Intro-illustration.svg" alt="A Man Standing">
+            <div class="right-column">
+              <img src="./images/Intro-illustration.svg" alt="A Man Standing">
+            </div>
+          </div>
+        </div>
+      </div>     
+    </div>
+
+    <div class="about-page container-fluid">
+      <!-- About Page -->
+      <div id="about">
+        <div class="row">
+          <!-- Left Column About -->
+          <div class="left-about col-md">
+            <div class="left-about">
+              <h1>hello</h1>
+            </div>
+          </div>
+          <!-- Right Column About -->
+          <div class="right-about col-md">
+            <div class="right-about">
+              <div class="line-two"></div>
+              <h1 class="about-me">About Me</h1>
+              <div class="line-two"></div>
+              <p class="p-about">I am a 4th year IT student from the Technological University of the Philippines-Manila. 
+                Who is aspiring to be a Web and Mobile Developer. However, I am more currently focused on the Frontend side of development
+                but am still eager to learn various development tools specially the Backend side in order to be become a Full stack developer.
+              </p>
+              <p class="p-about"> I spend most of my time by cooking and playing various games whenever I am not studying any Web and Mobile development tools</p>
+              <div class="line-three"></div>
+            </div>
           </div>
         </div>
       </div>
